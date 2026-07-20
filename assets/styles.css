@@ -394,7 +394,20 @@ h2 {
   .hero { padding: 48px 0 40px; }
   section { padding: 48px 0; }
 }
-@media (max-width: 520px) {
-  .site-nav .btn { padding: 8px 14px; }
-  .site-nav a.nav-link-about { display: none; }
+@media (max-width: 640px) {
+  .site-header .wrap {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .brand svg { height: 28px; }
+  .brand-name { font-size: 1.1rem; }
+  .site-nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .site-nav a { font-size: 0.9rem; }
+  .site-nav .btn { padding: 8px 16px; }
 }
